@@ -1,9 +1,7 @@
-#!/usr/bin/env python3
 import random
 import re
 import time
 
-# Define response patterns
 responses = {
     r'hello|hi|hey': [
         'Hello there!',
@@ -47,7 +45,6 @@ responses = {
     ]
 }
 
-# Default responses when no pattern matches
 default_responses = [
     "I'm not sure I understand. Could you rephrase that?",
     "That's interesting, but I'm not sure how to respond.",
@@ -59,17 +56,17 @@ def get_response(user_input):
     """Match user input against patterns and return a response"""
     user_input = user_input.lower()
     
-    # Check for exit command
+
     if re.search(r'bye|goodbye|exit|quit', user_input):
         response = random.choice(responses[r'bye|goodbye|exit|quit'])
         return response, True
     
-    # Check each pattern for a match
+
     for pattern, reply_list in responses.items():
         if re.search(pattern, user_input):
             return random.choice(reply_list), False
     
-    # If no pattern matches, use default response
+
     return random.choice(default_responses), False
 
 def chat():
