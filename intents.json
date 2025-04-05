@@ -1,0 +1,173 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "Hello",
+        "Good day",
+        "Greetings",
+        "What's up",
+        "How is it going"
+      ],
+      "responses": [
+        "Hello! How can I help you today?",
+        "Hi there! What can I do for you?",
+        "Greetings! How may I assist you?",
+        "Hey! How can I be of service today?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "See you later",
+        "Goodbye",
+        "I'm off",
+        "Have a good day",
+        "Catch you later",
+        "Take care"
+      ],
+      "responses": [
+        "Goodbye! Have a great day!",
+        "Bye! Come back soon!",
+        "Take care! See you next time!",
+        "See you later! Thanks for chatting!"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "That's helpful",
+        "Awesome, thanks",
+        "I appreciate it",
+        "Thank you for your help"
+      ],
+      "responses": [
+        "You're welcome!",
+        "Happy to help!",
+        "Anytime!",
+        "My pleasure!",
+        "Glad I could help!"
+      ]
+    },
+    {
+      "tag": "about",
+      "patterns": [
+        "Who are you",
+        "What are you",
+        "Tell me about yourself",
+        "What is your name",
+        "Who created you",
+        "Your purpose"
+      ],
+      "responses": [
+        "I'm a simple chatbot created for demonstration purposes.",
+        "I'm a bot designed to show how chatbots work using Python and TensorFlow.",
+        "I'm an automated assistant here to chat with you.",
+        "I'm a simple AI chatbot created as a demonstration."
+      ]
+    },
+    {
+      "tag": "help",
+      "patterns": [
+        "Help",
+        "I need help",
+        "Can you help me",
+        "What can you do",
+        "How does this work",
+        "What are your features"
+      ],
+      "responses": [
+        "I can chat with you about various topics! Try asking me about myself, or just have a conversation.",
+        "I'm here to chat! I can respond to greetings, goodbyes, and basic questions about myself.",
+        "I'm a simple chatbot that can hold a conversation. What would you like to talk about?",
+        "I can answer questions and have basic conversations. Feel free to chat with me!"
+      ]
+    },
+    {
+      "tag": "time",
+      "patterns": [
+        "What time is it",
+        "What is the time",
+        "Time",
+        "Current time",
+        "Do you know the time"
+      ],
+      "responses": [
+        "I don't have access to real-time data, so I can't tell you the exact time.",
+        "As a simple chatbot, I can't check the current time for you.",
+        "I don't have the ability to tell time, sorry!",
+        "I don't have access to your computer's clock, so I can't provide the time."
+      ]
+    },
+    {
+      "tag": "weather",
+      "patterns": [
+        "What's the weather",
+        "How is the weather today",
+        "Is it raining",
+        "Weather forecast",
+        "Temperature outside"
+      ],
+      "responses": [
+        "I don't have access to weather information or real-time data.",
+        "As a simple chatbot, I can't check the weather for you.",
+        "I don't have the ability to access weather data, sorry!",
+        "I don't have access to external systems to get weather information."
+      ]
+    },
+    {
+      "tag": "joke",
+      "patterns": [
+        "Tell me a joke",
+        "Say something funny",
+        "Make me laugh",
+        "Do you know any jokes",
+        "Joke"
+      ],
+      "responses": [
+        "Why don't scientists trust atoms? Because they make up everything!",
+        "What did one wall say to the other wall? I'll meet you at the corner!",
+        "Why don't skeletons fight each other? They don't have the guts!",
+        "What do you call a fake noodle? An impasta!",
+        "Why did the scarecrow win an award? Because he was outstanding in his field!"
+      ]
+    },
+    {
+      "tag": "identity",
+      "patterns": [
+        "Are you a robot",
+        "Are you human",
+        "Are you real",
+        "Are you AI",
+        "Are you a person"
+      ],
+      "responses": [
+        "I'm an AI chatbot created for demonstration purposes.",
+        "I'm a program designed to simulate conversation.",
+        "I'm not a human, I'm a chatbot created with Python and TensorFlow.",
+        "I'm an artificial intelligence designed to chat with you."
+      ]
+    },
+    {
+      "tag": "capabilities",
+      "patterns": [
+        "What can you do",
+        "How can you help me",
+        "What are your functions",
+        "What are your capabilities",
+        "Tell me what you can do"
+      ],
+      "responses": [
+        "I can chat with you, tell jokes, respond to questions about myself, and have simple conversations.",
+        "I'm designed for conversation. I can respond to greetings, answer questions about myself, and chat about various topics.",
+        "My main purpose is to demonstrate how chatbots work. I can have simple conversations and respond to basic questions.",
+        "I can chat, respond to greetings, say goodbye, tell jokes, and answer questions about myself."
+      ]
+    }
+  ]
+} 
