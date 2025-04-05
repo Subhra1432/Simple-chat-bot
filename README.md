@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Simple Python Chatbots
 
 This project contains two different chatbot implementations:
@@ -83,4 +82,3 @@ The advanced chatbot works by:
 4. Selecting a response from the matched intent category 
 =======
 # Simple-chat-bot
->>>>>>> 55b07b824d287af0e33ab526abe59665c38ea231
